@@ -1,0 +1,20 @@
+.link {
+    line-height: 28px;
+    font-size: 24px;
+    color: #FFF;
+    padding: 46px 0 0 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.link:first-child{
+    margin-right: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:last-child{
+  margin-right: 48px;
+}

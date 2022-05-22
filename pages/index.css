@@ -1,0 +1,47 @@
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css     );
+
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_place/link_place_header.css);
+
+@import url(../blocks/travel/travel.css);
+@import url(../blocks/travel/__caption/travel__caption.css);
+@import url(../blocks/travel/__image/travel__image.css);
+@import url(../blocks/travel/__subtitle/travel__subtitle.css);
+@import url(../blocks/travel/__title/travel__title.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__lists/intro__lists.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+
+.places {
+  display: grid;
+  grid-template-rows: repeat(5, 660px);
+  grid-template-columns: 984px;
+  max-width: 984px;
+  column-gap: 80px;
+}
+
+.place__title{
+width: 460px;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+margin: 0;
+}
+
+.place__image {
+  max-width: 460px;
+  max-height: 460px;
+}
