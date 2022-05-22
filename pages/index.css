@@ -27,21 +27,69 @@
 
 .places {
   display: grid;
-  grid-template-rows: repeat(5, 660px);
-  grid-template-columns: 984px;
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
   max-width: 984px;
-  column-gap: 80px;
+  grid-row-gap: 80px;
+  margin: 92px auto 0;
 }
 
-.place__title{
-width: 460px;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-margin: 0;
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  background-color: #2A2C2F;
+  gap: 48px 40px;
+}
+
+
+.place__title {
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
 }
 
 .place__image {
   max-width: 460px;
   max-height: 460px;
+}
+
+.place__website {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  max-width: 456px;
+  max-height: 46px;
+}
+
+.place__URL-heading {
+  margin: 0 0 12px 0;
+  color: #AAAAAA;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.place__link {
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.place__text {
+  max-width: 484px;
+}
+
+.place__paragraph {
+  margin: 0 0 26px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
 }
