@@ -25,71 +25,61 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
-.places {
-  display: grid;
-  grid-template-rows: repeat(5, minmax(min-content, max-content));
-  max-width: 984px;
-  grid-row-gap: 80px;
-  margin: 92px auto 0;
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__URL-heading/place__URL-heading.css);
+@import url(../blocks/place/__website/place__website.css);
+
+.cover {
+  margin: 92px auto 100px;
+  width: 1184px;
+  height: 740px;
+  /* background-image: url(../images/cover-trains.jpg); */
 }
 
-.place {
-  display: grid;
-  grid-template-columns: 460px 484px;
-  background-color: #2A2C2F;
-  gap: 48px 40px;
+.cover__opacity {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/cover-trains.jpg);
+  opacity: 0.3;
+  position: relative;
 }
 
+.cover__image {
+  width: inherit;
+  height: inherit;
 
-.place__title {
-  max-width: 460px;
+}
+
+.cover__title {
+  width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin: 0;
+  text-align: center;
+  margin: 0 0 32px 0;
+  position: absolute;
+  z-index: 1;
 }
 
-.place__image {
-  max-width: 460px;
-  max-height: 460px;
-}
-
-.place__website {
-  display: flex;
-  flex-direction: column;
-  align-self: end;
-  max-width: 456px;
-  max-height: 46px;
-}
-
-.place__URL-heading {
-  margin: 0 0 12px 0;
-  color: #AAAAAA;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-}
-
-.place__link {
-  color: #fff;
-  margin: 0;
+.cover__subtitle {
+  width: 360px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
-}
-
-.place__text {
-  max-width: 484px;
-}
-
-.place__paragraph {
-  margin: 0 0 26px 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 29px;
-}
-
-.place__paragraph:last-child {
+  text-align: center;
   margin: 0;
 }
