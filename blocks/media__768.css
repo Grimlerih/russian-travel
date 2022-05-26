@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+
+  .travel {
+    max-width: 768px;
+  }
+
+  .travel__image {
+    max-width: 768px;
+  }
+
+  .travel__title {
+    margin: 48px 0 0 0;
+    font-size: 53px;
+    line-height: 70px;
+  }
+
+  .travel__subtitle {
+    margin: 32px 0 56px 0;
+  }
+
+  .intro {
+    max-width: 720px;
+    margin: 88px auto;
+  }
+
+  .photo-grid {
+    max-width: 720px;
+    gap: 16px;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    margin: 0 auto 88px;
+  }
+
+  .places {
+    max-width: 720px;
+  }
+
+  .place {
+    gap: 48px 28px;
+    grid-template-columns: 1fr minmax(min-content, max-content);
+  }
+
+  .place__image {
+    max-width: 340px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 340px;
+  }
+
+  .cover {
+    max-width: 768px;
+    margin: 90px 0 88px 0;
+  }
+
+  .footer {
+    max-width: 720px;
+  }
+
+
+}

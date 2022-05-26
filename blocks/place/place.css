@@ -1,6 +1,5 @@
 .place {
   display: grid;
   grid-template-columns: 460px 484px;
-  background-color: #2A2C2F;
   gap: 48px 40px;
 }

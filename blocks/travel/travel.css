@@ -1,8 +1,7 @@
 .travel {
-  background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
   max-width: 984px;
   justify-content: center;
 }

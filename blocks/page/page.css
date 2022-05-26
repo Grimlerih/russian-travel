@@ -1,7 +1,6 @@
 .page {
     background-color: #2A2C2F;
     max-width: 1280px;
-    min-width:  1280px;
     margin: 0 auto;
     font-family: 'Inter', 'Arial', sans-serif;
     color: #fff;
@@ -12,4 +11,3 @@
     -webkit-font-smoothing: antialiased;
 }
 
-/* #2A2C2F */

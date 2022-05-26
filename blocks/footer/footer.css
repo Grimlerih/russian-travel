@@ -1,0 +1,7 @@
+.footer {
+  margin:0 auto 24px;
+  max-width: 1184px;
+  display: grid;
+  grid-template-rows: 18px ;
+  grid-template-columns:repeat(5, minmax(min-content, max-content)) 1fr;
+}

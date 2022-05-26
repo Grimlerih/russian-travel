@@ -36,50 +36,95 @@
 @import url(../blocks/place/__URL-heading/place__URL-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 
-.cover {
-  margin: 92px auto 100px;
-  width: 1184px;
-  height: 740px;
-  /* background-image: url(../images/cover-trains.jpg); */
-}
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__opacity/cover__opacity.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
 
-.cover__opacity {
-  width: inherit;
-  height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/cover-trains.jpg);
-  opacity: 0.3;
-  position: relative;
-}
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
 
-.cover__image {
-  width: inherit;
-  height: inherit;
+@import url(../blocks/media__1024/media__1024.css);
+@import url(../blocks/media__768.css);
 
-}
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    margin: 16px auto 0;
+  }
 
-.cover__title {
-  width: 560px;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  text-align: center;
-  margin: 0 0 32px 0;
-  position: absolute;
-  z-index: 1;
-}
+  .logo_place_header {
+    max-width: 142px;
+  }
 
-.cover__subtitle {
-  width: 360px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  margin: 0;
+  .link {
+    line-height: 18px;
+    font-size: 20px;
+  }
+
+  .travel {
+    max-width: 320px;
+  }
+
+  .travel__image {
+    max-width: 320px;
+  }
+
+  .travel__title {
+    margin: 48px 0 0 0;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .travel__subtitle {
+    margin: 16px 0 40px 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .intro {
+    max-width: 288px;
+    margin: 64px auto;
+  }
+
+  .photo-grid {
+    max-width: 288px;
+    gap: 12px;
+    grid-template-columns: minmax(min-content, max-content);
+    margin: 0 auto 64px;
+  }
+
+  .places {
+    max-width: 320px;
+  }
+
+  .place {
+    gap: 32px;
+    grid-template-columns: 320px;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .place__image {
+    max-width: 320px;
+    max-height: 320px;
+  }
+
+  .cover {
+    max-width: 320px;
+    margin: 66px 0 64px 0;
+  }
+
+  .footer {
+    max-width: 720px;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(6, minmax(min-content, max-content));
+  }
+
+
 }
