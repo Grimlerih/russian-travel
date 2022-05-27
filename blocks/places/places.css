@@ -5,3 +5,16 @@
   grid-row-gap: 80px;
   margin: 92px auto 0;
 }
+
+@media screen and (max-width: 425px) {
+  .places {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    grid-row-gap: 73px;
+  }
+}

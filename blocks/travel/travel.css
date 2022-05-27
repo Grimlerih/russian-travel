@@ -5,3 +5,15 @@
   max-width: 984px;
   justify-content: center;
 }
+
+@media screen and (max-width: 425px) {
+  .travel {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel {
+    max-width: 768px;
+  }
+}

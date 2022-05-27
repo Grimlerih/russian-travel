@@ -1,3 +1,15 @@
 .travel__image {
   max-width: 984px;
 }
+
+@media screen and (max-width: 425px) {
+  .travel__image {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel__image {
+    max-width: 768px;
+  }
+}

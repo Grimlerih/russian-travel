@@ -1,13 +1,13 @@
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/lang-links/lang-links.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_header.css     );
 
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/_place/link_place_header.css);
 
 @import url(../blocks/travel/travel.css);
 @import url(../blocks/travel/__caption/travel__caption.css);
@@ -48,83 +48,8 @@
 
 @import url(../blocks/media__1024/media__1024.css);
 @import url(../blocks/media__768.css);
-
-@media screen and (max-width: 320px) {
-  .header {
-    max-width: 288px;
-    margin: 16px auto 0;
-  }
-
-  .logo_place_header {
-    max-width: 142px;
-  }
-
-  .link {
-    line-height: 18px;
-    font-size: 20px;
-  }
-
-  .travel {
-    max-width: 320px;
-  }
-
-  .travel__image {
-    max-width: 320px;
-  }
-
-  .travel__title {
-    margin: 48px 0 0 0;
-    font-size: 40px;
-    line-height: 44px;
-  }
-
-  .travel__subtitle {
-    margin: 16px 0 40px 0;
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .intro {
-    max-width: 288px;
-    margin: 64px auto;
-  }
-
-  .photo-grid {
-    max-width: 288px;
-    gap: 12px;
-    grid-template-columns: minmax(min-content, max-content);
-    margin: 0 auto 64px;
-  }
-
-  .places {
-    max-width: 320px;
-  }
-
-  .place {
-    gap: 32px;
-    grid-template-columns: 320px;
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .place__image {
-    max-width: 320px;
-    max-height: 320px;
-  }
-
-  .cover {
-    max-width: 320px;
-    margin: 66px 0 64px 0;
-  }
-
-  .footer {
-    max-width: 720px;
-    grid-template-columns: minmax(min-content, max-content);
-    grid-template-rows: repeat(6, minmax(min-content, max-content));
-  }
+@import url(../blocks/media__693.css);
+@import url(../blocks/media__425.css);
+@import url(../blocks/media__320.css);
 
 
-}

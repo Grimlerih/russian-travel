@@ -1,0 +1,88 @@
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: 288px;
+    margin: 16px auto 0;
+  }
+
+  .link {
+    line-height: 18px;
+    font-size: 20px;
+  }
+
+  .travel {
+    max-width: 320px;
+  }
+
+  .travel__image {
+    max-width: 320px;
+  }
+
+  .travel__subtitle {
+    margin: 16px auto 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .intro {
+    max-width: 288px;
+    margin: 64px auto;
+  }
+
+  .photo-grid {
+    max-width: 288px;
+    gap: 12px;
+    grid-template-columns: minmax(min-content, max-content);
+    margin: 0 auto 64px;
+  }
+
+  .places {
+    max-width: 320px;
+  }
+
+  .place {
+    gap: 32px;
+    grid-template-columns: minmax(min-content, max-content);
+  }
+
+  .place__text {
+    max-width: 288px;
+    margin: auto;
+  }
+
+  .place__website {
+    width: 288px;
+    margin: 0 auto;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .cover {
+    max-width: 360px;
+    height: 220px;
+    margin: 66px auto 64px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    margin: 0 0 16px 0;
+  }
+
+  .footer {
+    max-width: 720px;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(6, minmax(min-content, max-content));
+    margin: 64px 0 24px 16px;
+  }
+}

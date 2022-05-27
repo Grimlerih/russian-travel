@@ -1,0 +1,41 @@
+@media screen and (max-width: 693px) {
+  .travel__title {
+    font-size: 12vw;
+    line-height: 100%;
+  }
+
+  .travel__subtitle {
+    font-size: 4vw;
+    line-height: 100%;
+  }
+
+  .intro__title {
+    max-width: 665px;
+  }
+
+  .place {
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .cover__title {
+    font-size: 60px;
+    line-height: 50px;
+  }
+
+  .footer {
+    max-width: 720px;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 32px;
+    margin: 64px 0 24px 16px;
+  }
+
+  .footer__copyright {
+    text-align: start;
+  }
+
+}
