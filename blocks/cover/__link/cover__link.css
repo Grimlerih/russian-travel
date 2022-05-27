@@ -13,5 +13,5 @@
 }
 
 .cover__link:hover .cover__opacity {
-  background-color: rgba(0 0 0 / 0.7);
+  opacity: 0.8;
 }
