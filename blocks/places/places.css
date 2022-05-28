@@ -6,9 +6,9 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .places {
-    max-width: 320px;
+    max-width: 928px;
   }
 }
 
@@ -16,5 +16,13 @@
   .places {
     max-width: 720px;
     grid-row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    max-width: 320px;
+    margin: 0 auto;
+    grid-row-gap: 50px;
   }
 }

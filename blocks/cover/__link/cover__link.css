@@ -1,6 +1,6 @@
 .cover__link {
   width: inherit;
-  height: inherit;
+  min-height: inherit;
   text-decoration: none;
   color: #fff;
   display: flex;

@@ -6,12 +6,11 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
-    max-width: 288px;
-    gap: 12px;
-    grid-template-columns: minmax(min-content, max-content);
-    margin: 0 auto 64px;
+    max-width: 928px;
+    gap: 14px;
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
   }
 }
 
@@ -23,3 +22,15 @@
     margin: 0 auto 88px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    max-width: 288px;
+    gap: 12px;
+    grid-template-columns: minmax(min-content, max-content);
+    margin: 0 auto 24px;
+  }
+}
+
+
+

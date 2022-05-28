@@ -6,14 +6,20 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .travel {
-    max-width: 320px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .travel {
     max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .travel {
+    max-width: 320px;
   }
 }

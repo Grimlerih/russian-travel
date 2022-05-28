@@ -1,0 +1,24 @@
+.lang-links__link {
+  line-height: 28px;
+  font-size: 24px;
+  color: #FFF;
+  margin: 0 18px 0 0;
+  align-self: end;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.lang-links__link:last-child {
+  margin: 0;
+}
+
+.lang-links__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+  .lang-links__link {
+    line-height: 18px;
+    font-size: 20px;
+  }
+}

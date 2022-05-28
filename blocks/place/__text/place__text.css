@@ -6,5 +6,6 @@
   .place__text {
     max-width: 288px;
     margin: auto;
+    grid-row-gap: 25px;
   }
 }
