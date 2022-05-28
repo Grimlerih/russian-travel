@@ -1,9 +1,7 @@
 .navigation {
-  margin: 0 auto 24px;
-  max-width: 1184px;
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(8, minmax(min-content,max-content)) ;
+  grid-template-columns: repeat(5, minmax(min-content,max-content)) ;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,7 +14,6 @@
   .navigation {
     max-width: 720px;
     grid-template-columns: repeat(5, minmax(min-content,max-content));
-    margin: 0 16px 24px;
   }
 }
 
@@ -24,19 +21,11 @@
   .navigation {
     grid-template-columns: repeat(2, minmax(min-content,max-content));
     gap: 32px;
-    margin: 64px 16px 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .navigation {
     grid-template-columns: minmax(min-content, max-content);
-    margin: 64px 0 24px 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .navigation {
-    max-width: 186px;
   }
 }

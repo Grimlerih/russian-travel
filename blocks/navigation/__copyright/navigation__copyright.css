@@ -7,15 +7,10 @@
   grid-column: -1;
 }
 
-@media screen and (max-width: 693px) {
-  .navigation__copyright {
-    text-align: start;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .navigation__copyright {
     grid-column: auto;
+    text-align: start;
   }
 }
 
